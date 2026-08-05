@@ -1,0 +1,6 @@
+source;share/printable_6dof_arm/hook/cmake_prefix_path.dsv
+source;share/printable_6dof_arm/hook/cmake_prefix_path.sh
+source;share/printable_6dof_arm/local_setup.bash
+source;share/printable_6dof_arm/local_setup.dsv
+source;share/printable_6dof_arm/local_setup.sh
+source;share/printable_6dof_arm/local_setup.zsh

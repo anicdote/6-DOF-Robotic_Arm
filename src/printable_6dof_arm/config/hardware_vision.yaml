@@ -1,0 +1,33 @@
+camera_calibration_hw:
+  ros__parameters:
+    calibration_file: ""
+    image_topic: /image_raw
+    camera_info_topic: /camera_info
+    rectified_image_topic: /hardware_camera/image_rect
+    rectified_camera_info_topic: /hardware_camera/camera_info
+
+color_tracker_hw_test:
+  ros__parameters:
+    target_color: red
+    # The calibration node forwards /image_raw unchanged when no YAML is set.
+    image_topic: /hardware_camera/image_rect
+    camera_info_topic: /hardware_camera/camera_info
+    minimum_blob_area: 350.0
+    morphology_kernel: 5
+    publish_debug_image: true
+    target_color_topic: /pick_place/target_color
+
+pixel_to_tabletop_hw:
+  ros__parameters:
+    pixel_topic: /color_tracker/target_pixel
+    camera_info_topic: /hardware_camera/camera_info
+    base_frame: base_link
+    tabletop_z: 0.0
+    # Measure these values after mounting the camera.  They are a temporary
+    # static camera-to-base transform until TF is available on the arm.
+    camera_x: 0.0
+    camera_y: 0.0
+    camera_z: 0.30
+    camera_roll: 3.14159265
+    camera_pitch: 0.0
+    camera_yaw: 0.0

@@ -1,0 +1,100 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /RobotModel1
+        - /TF1
+      Splitter Ratio: 0.55
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 0.05
+      Class: rviz_default_plugins/Grid
+      Color: 140; 140; 145
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Plane Cell Count: 20
+      Reference Frame: <Fixed Frame>
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Name: RobotModel
+      Update Interval: 0
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      # The robot model already conveys the arm pose.  Drawing every moving
+      # frame adds a second, fast-updating visual layer and can make RViz look
+      # jittery on modest GPUs; enable it manually only when debugging TF.
+      Enabled: false
+      Frame Timeout: 15
+      Marker Scale: 0.08
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Camera
+      Normalize Range: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+        Value: /color_tracker/debug_image
+    - Class: rviz_default_plugins/PointStamped
+      Color: 255; 255; 0
+      Enabled: true
+      History Length: 10
+      Name: DetectedTarget
+      Radius: 0.012
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /color_tracker/target_point
+  Enabled: true
+  Global Options:
+    Background Color: 28; 30; 34
+    Fixed Frame: base_link
+    Frame Rate: 60
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.85
+      Focal Point:
+        X: 0.16
+        Y: 0.0
+        Z: 0.10
+      Name: Current View
+      Pitch: 0.48
+      Target Frame: base_link
+      Yaw: 0.72
+Window Geometry:
+  Height: 900
+  Width: 1500

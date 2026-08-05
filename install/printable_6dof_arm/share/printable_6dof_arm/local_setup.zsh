@@ -1,0 +1,1 @@
+/home/ece_boys/ros2_ws/build/printable_6dof_arm/ament_cmake_environment_hooks/local_setup.zsh

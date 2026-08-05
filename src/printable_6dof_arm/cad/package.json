@@ -1,0 +1,12 @@
+{
+  "name": "printable-6dof-arm-cad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parametric ManifoldCAD source for the printable ROS 2 arm",
+  "scripts": {
+    "generate": "node generate_parts.js"
+  },
+  "dependencies": {
+    "manifold-3d": "^3.5.1"
+  }
+}

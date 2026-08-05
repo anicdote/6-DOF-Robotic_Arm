@@ -1,0 +1,14 @@
+%YAML:1.0
+---
+# Copy this file outside the package and replace the example values with the
+# output from an OpenCV chessboard calibration before using it on hardware.
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 600.0, 0.0, 320.0, 0.0, 600.0, 240.0, 0.0, 0.0, 1.0 ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.0, 0.0, 0.0, 0.0, 0.0 ]

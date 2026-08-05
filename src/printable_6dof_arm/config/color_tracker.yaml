@@ -1,0 +1,46 @@
+color_tracker:
+  ros__parameters:
+    target_color: red
+    image_topic: /arm_camera/image_raw
+    camera_info_topic: /arm_camera/camera_info
+    fixed_frame: base_link
+    camera_frame_convention: auto
+    # Projection plane for the visual blob centroid (half a 40 mm cube).
+    object_top_z: 0.020
+    minimum_blob_area: 350.0
+    morphology_kernel: 5
+    publish_debug_image: true
+
+pick_place_controller:
+  ros__parameters:
+    detection_topic: /color_tracker/target_point
+    arm_command_topic: /arm_controller/joint_trajectory
+    gripper_command_topic: /gripper_controller/joint_trajectory
+    auto_start: true
+    required_detections: 5
+    pick_z: 0.025
+    pregrasp_z: 0.090
+    lift_z: 0.090
+    place_x: 0.200
+    place_y: -0.180
+    # The cube centre is 5 mm below the tool tip.  43 mm leaves 1 mm of
+    # clearance above the tray base (top surface: 17 mm) at release.
+    place_z: 0.043
+    tool_pitch: 1.250
+    shoulder_z: 0.097
+    shoulder_x: -0.0129
+    shoulder_y: -0.0072
+    upper_arm_length: 0.120
+    forearm_to_wrist_length: 0.204
+    wrist_to_tip_length: 0.269
+    open_gripper_position: 0.0
+    closed_gripper_position: 0.045
+    gripper_joint_names: [left_finger_joint, right_finger_joint]
+    gripper_joint_multipliers: [-1.0, 1.0]
+    target_color: red
+    use_sim_grasp_assist: true
+    sim_set_pose_service: /world/color_pick_place/set_pose
+    payload_tool_z_offset: -0.005
+    detection_timeout: 4.0
+    scan_step_duration: 2.5
+    scan_dwell: 0.70

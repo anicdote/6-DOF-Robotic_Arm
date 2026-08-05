@@ -1,0 +1,25 @@
+joint_limits:
+  joint1_base_yaw:
+    min_position: -6.2832
+    max_position: 6.2832
+    max_velocity: 0.80
+  joint2_shoulder_pitch:
+    min_position: -2.2000
+    max_position: 1.2000
+    max_velocity: 0.65
+  joint3_elbow_pitch:
+    min_position: -2.6000
+    max_position: 2.6000
+    max_velocity: 0.70
+  joint4_wrist_pitch:
+    min_position: -2.6000
+    max_position: 2.6000
+    max_velocity: 0.90
+  left_finger_joint:
+    min_position: -0.350
+    max_position: 0.000
+    max_velocity: 0.600
+  right_finger_joint:
+    min_position: 0.000
+    max_position: 0.350
+    max_velocity: 0.600

@@ -1,0 +1,23 @@
+servo_bridge:
+  ros__parameters:
+    dry_run: true
+    update_rate_hz: 50.0
+    arm_command_topic: /arm_hardware/joint_trajectory
+    gripper_command_topic: /arm_hardware/gripper_trajectory
+    i2c_address: 64
+    pwm_frequency_hz: 50
+    joint_names:
+      - joint1_base_yaw
+      - joint2_shoulder_pitch
+      - joint3_elbow_pitch
+      - joint4_wrist_pitch
+      - left_finger_joint
+    channels: [0, 1, 2, 3, 4]
+    offsets_deg: [90.0, 90.0, 90.0, 90.0, 60.0]
+    directions: [1.0, -1.0, 1.0, -1.0, 1.0]
+    scales_deg_per_unit: [57.2958, 57.2958, 57.2958, 57.2958, 57.2958]
+    servo_min_deg: [0.0, 5.0, 5.0, 5.0, 20.0]
+    servo_max_deg: [180.0, 175.0, 175.0, 175.0, 100.0]
+    command_min: [-6.2832, -2.2000, -2.6000, -2.6000, -0.350]
+    command_max: [6.2832, 1.2000, 2.6000, 2.6000, 0.000]
+    max_command_rate_per_s: [0.80, 0.65, 0.70, 0.90, 0.600]

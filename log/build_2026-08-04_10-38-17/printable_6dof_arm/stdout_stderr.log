@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ece_boys/ros2_ws/build/printable_6dof_arm
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/arm.rviz
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/arm_controllers.yaml
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/color_tracker.yaml
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/gz_bridge.yaml
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/joint_limits.yaml
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/config/servo_calibration.yaml
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/__pycache__/color_pick_place.launch.cpython-312.pyc
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/__pycache__/display.launch.cpython-312.pyc
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/__pycache__/gazebo.launch.cpython-312.pyc
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/__pycache__/hardware_color_pick_place.launch.cpython-312.pyc
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/__pycache__/servo_hardware.launch.cpython-312.pyc
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/color_pick_place.launch.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/display.launch.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/gazebo.launch.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/hardware_color_pick_place.launch.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/launch/servo_hardware.launch.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/base.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/elbow_left.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/elbow_right.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/gripper_palm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/left_finger.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/right_finger.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/shoulder_arm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/waist.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/cad/wrist_arm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/base_plate.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/camera_mount.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/finger_left.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/finger_right.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/forearm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/gripper_palm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/rotating_base.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/tool_flange.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/upper_arm.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/wrist_pitch_bracket.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/meshes/visual/wrist_roll_housing.stl
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/urdf/printable_6dof_arm.urdf
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/urdf/printable_6dof_arm.urdf.xacro
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/worlds/color_pick_place.sdf
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/lib/printable_6dof_arm/arm_kinematics.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/lib/printable_6dof_arm/arm_dashboard.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/lib/printable_6dof_arm/color_tracker.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/lib/printable_6dof_arm/pick_place_controller.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/lib/printable_6dof_arm/servo_bridge.py
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/ament_index/resource_index/package_run_dependencies/printable_6dof_arm
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/ament_index/resource_index/parent_prefix_path/printable_6dof_arm
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/environment/ament_prefix_path.sh
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/environment/path.sh
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/environment/path.dsv
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/local_setup.bash
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/local_setup.sh
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/local_setup.zsh
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/local_setup.dsv
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/package.dsv
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/ament_index/resource_index/packages/printable_6dof_arm
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/cmake/printable_6dof_armConfig.cmake
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/cmake/printable_6dof_armConfig-version.cmake
+-- Symlinking: /home/ece_boys/ros2_ws/install/printable_6dof_arm/share/printable_6dof_arm/package.xml
