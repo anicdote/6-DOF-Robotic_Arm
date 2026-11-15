@@ -1,0 +1,38 @@
+# ROS 2 / colcon build outputs
+/build/
+/install/
+/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local recordings, datasets, and generated artifacts
+*.wav
+*.mp3
+*.mp4
+*.bag
+*.db
+*.sqlite
