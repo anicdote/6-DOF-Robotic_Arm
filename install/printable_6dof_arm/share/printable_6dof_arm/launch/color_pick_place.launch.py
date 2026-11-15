@@ -1,1 +1,0 @@
-/home/ece_boys/ros2_ws/src/printable_6dof_arm/launch/color_pick_place.launch.py

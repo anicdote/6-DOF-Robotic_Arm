@@ -1,1 +1,0 @@
-/home/ece_boys/ros2_ws/src/printable_6dof_arm/scripts/color_tracker_hw_test.py

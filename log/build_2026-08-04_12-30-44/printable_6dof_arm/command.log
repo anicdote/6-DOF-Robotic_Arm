@@ -1,4 +1,0 @@
-Invoking command in '/home/ece_boys/ros2_ws/build/printable_6dof_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ece_boys/ros2_ws/build/printable_6dof_arm -- -j4 -l4
-Invoked command in '/home/ece_boys/ros2_ws/build/printable_6dof_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ece_boys/ros2_ws/build/printable_6dof_arm -- -j4 -l4
-Invoking command in '/home/ece_boys/ros2_ws/build/printable_6dof_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ece_boys/ros2_ws/build/printable_6dof_arm
-Invoked command in '/home/ece_boys/ros2_ws/build/printable_6dof_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ece_boys/ros2_ws/build/printable_6dof_arm

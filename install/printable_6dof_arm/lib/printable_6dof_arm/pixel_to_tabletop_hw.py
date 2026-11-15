@@ -1,1 +1,0 @@
-/home/ece_boys/ros2_ws/src/printable_6dof_arm/scripts/pixel_to_tabletop_hw.py
